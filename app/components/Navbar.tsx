@@ -6,9 +6,9 @@ import SocialIcons from "./SocialIcons";
 const Navbar = () => {
   return (
     <header className="w-full px-32 py-8 flex items-center justify-between">
-      <div>
+      <>
         <NavbarLinks />
-      </div>
+      </>
       <div>
         <Logo />
       </div>
